@@ -1,0 +1,782 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Manipulating Components · Kiln</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-bootstrap-callout/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="manipulating-components.html" />
+    
+    
+    <link rel="prev" href="components.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="./">
+            
+                <a href="./#installation">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="./">
+            
+                <a href="./#usage">
+            
+                    
+                    Usage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="./">
+            
+                <a href="./#user-experience">
+            
+                    
+                    User Experience
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="components.html">
+            
+                <a href="components.html">
+            
+                    
+                    Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="manipulating-components.html">
+            
+                <a href="manipulating-components.html">
+            
+                    
+                    Manipulating Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="manipulating-components.html">
+            
+                <a href="manipulating-components.html#basic-lists">
+            
+                    
+                    Component Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="manipulating-components.html">
+            
+                <a href="manipulating-components.html#head-lists">
+            
+                    
+                    Head Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="manipulating-components.html">
+            
+                <a href="manipulating-components.html#invisible-lists">
+            
+                    
+                    Invisible Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="manipulating-components.html">
+            
+                <a href="manipulating-components.html#page-areas">
+            
+                    
+                    Page Areas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.5" data-path="manipulating-components.html">
+            
+                <a href="manipulating-components.html#site-specific-components">
+            
+                    
+                    Site-Specific Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.6" data-path="manipulating-components.html">
+            
+                <a href="manipulating-components.html#fuzzy-lists">
+            
+                    
+                    Fuzzy Lists
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="editing-components.html">
+            
+                <a href="editing-components.html">
+            
+                    
+                    Editing Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="editing-components.html">
+            
+                <a href="editing-components.html#inline-wysiwyg">
+            
+                    
+                    Inline WYSIWYG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="editing-components.html">
+            
+                <a href="editing-components.html#placeholders">
+            
+                    
+                    Placeholders
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="editing-components.html">
+            
+                <a href="editing-components.html#editing-components-with-forms">
+            
+                    
+                    Overlay Forms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.4" data-path="editing-components.html">
+            
+                <a href="editing-components.html#groups">
+            
+                    
+                    Groups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.5" data-path="editing-components.html">
+            
+                <a href="editing-components.html#settings-group">
+            
+                    
+                    Settings Group
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.6" data-path="editing-components.html">
+            
+                <a href="editing-components.html#tabbed-form-sections">
+            
+                    
+                    Tabbed Forms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.7" data-path="editing-components.html">
+            
+                <a href="editing-components.html#field-configuration">
+            
+                    
+                    Fields
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.8" data-path="editing-components.html">
+            
+                <a href="editing-components.html#cross-component-communication">
+            
+                    
+                    Cross Component Communication
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="kiln-ui.html">
+            
+                <a href="kiln-ui.html">
+            
+                    
+                    The Kiln UI
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="kiln-ui.html">
+            
+                <a href="kiln-ui.html#view-mode">
+            
+                    
+                    View Mode
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="kiln-ui.html">
+            
+                <a href="kiln-ui.html#edit-mode">
+            
+                    
+                    Edit Mode
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="kiln-ui.html">
+            
+                <a href="kiln-ui.html#component-selectors">
+            
+                    
+                    Component Selectors
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="api.html">
+            
+                <a href="api.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="api.html">
+            
+                <a href="api.html#css-classes">
+            
+                    
+                    CSS Classes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="api.html">
+            
+                <a href="api.html#javascript-utilities">
+            
+                    
+                    JS Utils
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="api.html">
+            
+                <a href="api.html#vue-components">
+            
+                    
+                    Vue Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="api.html">
+            
+                <a href="api.html#vuex-state">
+            
+                    
+                    Vuex State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="vuex-actions.md">
+            
+                <span>
+            
+                    
+                    Vuex Actions
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="GLOSSARY.html">
+            
+                <a href="GLOSSARY.html">
+            
+                    
+                    Glossary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Manipulating Components</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="manipulating-components">Manipulating Components</h1>
+<p><img src="images/add_component.png" alt=""></p>
+<h2 id="component-lists">Component Lists</h2>
+<p>Components are added, removed, and reordered in fields called <em>component lists</em>, of which there are <strong>four types</strong>.</p>
+<h3 id="basic-lists">Basic Lists</h3>
+<p>Components that contain child component lists need to do two things: Render an <em>editable</em> list in their template, and specify a <em>config</em> in their <code>schema.yml</code>.</p>
+<pre><code class="lang-handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">data-editable</span>=<span class="hljs-string">&quot;myList&quot;</span>&gt;</span></span><span class="hljs-template-variable">{{&gt; component-list myList }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</span></code></pre>
+<div class="callout callout-info"><h4 id="note">Note</h4><div><p>You&apos;ll notice that <code>data-editable</code> is the same attribute used to specify editable fields. The <code>component-list</code> handlebars partial comes from <a href="https://github.com/nymag/nymag-handlebars#partials" target="_blank">our included library of helpers and partials</a>, and renders a list of components with their data.</p></div></div>
+<pre><code class="lang-yaml"><span class="hljs-attr">myList:</span>
+<span class="hljs-attr">  _componentList:</span>
+<span class="hljs-attr">    include:</span>
+<span class="hljs-bullet">      -</span> some-component
+<span class="hljs-bullet">      -</span> some-other-component
+</code></pre>
+<p>This would create a basic list with drag &amp; drop functionality. When selecting components inside this list, you&apos;d see <em>Remove</em> and <em>Add Component</em> buttons that would allow you to remove those components or add new instances of <code>some-component</code> and <code>some-other-component</code>. When adding components to a list, a component&apos;s default data is cloned into a new instance.</p>
+<h4 id="placeholders">Placeholders</h4>
+<p>Basic lists also allow placeholders, which will display (and prompt users to add components) when the list is empty.</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">myList:</span>
+<span class="hljs-attr">  _componentList:</span>
+<span class="hljs-attr">    _placeholder:</span>
+<span class="hljs-attr">      height:</span> <span class="hljs-number">600</span>px
+<span class="hljs-attr">    include:</span>
+<span class="hljs-bullet">      -</span> some-component
+<span class="hljs-bullet">      -</span> some-other-component
+</code></pre>
+<p><img src="images/list_placeholder.png" alt=""></p>
+<h3 id="head-lists">Head Lists</h3>
+<p>Components in the <code>&lt;head&gt;</code> of the page require a different syntax. Much like how you denote the start of <code>&lt;head&gt;</code> components with a <code>&lt;!-- data-editable --&gt;</code> comment, you use html comments for the beginning <em>and the end</em> of these component lists.</p>
+<pre><code class="lang-handlebars"><span class="xml"><span class="hljs-comment">&lt;!-- data-editable=&quot;myList&quot; --&gt;</span>
+</span><span class="hljs-template-variable">{{&gt; component-list myList }}</span><span class="xml">
+<span class="hljs-comment">&lt;!-- data-editable-end --&gt;</span>
+</span></code></pre>
+<p>The <code>schema.yml</code> config of a head list is the same as a basic list.</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">myList:</span>
+<span class="hljs-attr">  _componentList:</span>
+<span class="hljs-attr">    include:</span>
+<span class="hljs-bullet">      -</span> some-component
+<span class="hljs-bullet">      -</span> some-other-component
+</code></pre>
+<p>Head component lists get added as tabs to the <em>Find on Page</em> drawer in Kiln automatically, allowing them to be edited.</p>
+<p><img src="images/head_list.png" alt=""></p>
+<h3 id="invisible-lists">Invisible Lists</h3>
+<p>It&apos;s useful to have a component list for various components that might not have public-facing visual elements, such as tracking scripts, affiliate marketing scripts, pixels, or lightboxes. If these components must live in the <code>&lt;body&gt;</code> (rather than the <code>&lt;head&gt;</code>), you may add a property to the component list to make them appear as tabs in the <em>Find on Page</em> drawer, allowing them to be edited.</p>
+<pre><code class="lang-handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">data-editable</span>=<span class="hljs-string">&quot;myList&quot;</span>&gt;</span></span><span class="hljs-template-variable">{{&gt; component-list myList }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</span></code></pre>
+<pre><code class="lang-yaml"><span class="hljs-attr">myList:</span>
+<span class="hljs-attr">  _componentList:</span>
+<span class="hljs-attr">    invisible:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">    include:</span>
+<span class="hljs-bullet">      -</span> some-component
+<span class="hljs-bullet">      -</span> some-other-component
+</code></pre>
+<h3 id="page-areas">Page Areas</h3>
+<p>Page areas are a special type of component list that only exists in layouts. By adding a property to the layout&apos;s <code>schema.yml</code>, you can specify that certain component lists exist in the page&apos;s data (and thus are specific to that page) rather than the layout&apos;s data (thus being shared amongst all pages with that layout).</p>
+<pre><code class="lang-handlebars"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">data-editable</span>=<span class="hljs-string">&quot;myList&quot;</span>&gt;</span></span><span class="hljs-template-variable">{{&gt; component-list myList }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</span></code></pre>
+<pre><code class="lang-yaml"><span class="hljs-attr">myList:</span>
+<span class="hljs-attr">  _componentList:</span>
+<span class="hljs-attr">    page:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">    include:</span>
+<span class="hljs-bullet">      -</span> some-component
+<span class="hljs-bullet">      -</span> some-other-component
+</code></pre>
+<p>The data for component lists inside components (including layouts) looks like an array of objects:</p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;myList&quot;</span>: [{
+    <span class="hljs-string">&quot;_ref&quot;</span>: <span class="hljs-string">&quot;domain.com/_components/some-component/instances/some-instance&quot;</span>
+  }, {
+    <span class="hljs-string">&quot;_ref&quot;</span>: <span class="hljs-string">&quot;domain.com/_components/some-other-component/instances/some-instance&quot;</span>
+  }]
+}
+</code></pre>
+<p>Meanwhile, the data for component lists inside page data looks like an array of strings:</p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;myList&quot;</span>: [
+    <span class="hljs-string">&quot;domain.com/_components/some-component/instances/some-instance&quot;</span>,
+    <span class="hljs-string">&quot;domain.com/_components/some-other-component/instances/some-instance&quot;</span>
+  ]
+}
+</code></pre>
+<p>Page areas may also have placeholders.</p>
+<h2 id="site-specific-components">Site-Specific Components</h2>
+<p>All types of component lists allow whitelisting of components using the <code>include</code> property in the config. You may also specify that components in a list should be included or excluded on a specific site. To do so, add a comma-separated list of sites in parenthesis after the name of the component in the include list:</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">content:</span>
+<span class="hljs-attr">  _componentList:</span>
+<span class="hljs-attr">    include:</span>
+<span class="hljs-bullet">      -</span> blockquote (site1, site2) <span class="hljs-comment"># allow on site1 and site2 ONLY</span>
+<span class="hljs-bullet">      -</span> paragraph <span class="hljs-comment"># allow on all sites</span>
+<span class="hljs-bullet">      -</span> image (not:site1) <span class="hljs-comment"># allow on all sites EXCEPT site1</span>
+<span class="hljs-bullet">      -</span> link (site1, site2, site3, not:site2, not:site3) <span class="hljs-comment"># only allow on site1</span>
+      <span class="hljs-comment"># if (for some reason) you both include and exclude a site, it&apos;ll filter by the</span>
+      <span class="hljs-comment"># included sites first, then filter out the excluded.</span>
+</code></pre>
+<h2 id="fuzzy-lists">Fuzzy Lists</h2>
+<p>Additionally, all types of component lists may be set to <em>fuzzy</em>. The default <code>include</code> list is appropriate for most situations, but there are certain scenarios where you might want to be less strict. For example, the body of an article might be restricted to paragraphs and images 99% of the time, but you still want to allow your interactives team to create one-off components and add them through Kiln&apos;s UI.</p>
+<p>You may make any component list <em>fuzzy</em> by adding that property in the config. This will add a <em>View All Components</em> button into the header of the Add Components modal, which will list <em>all components available in your Clay installation</em>.</p>
+<p><img src="images/fuzzy_list.png" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="components.html" class="navigation navigation-prev " aria-label="Previous page: Components">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="manipulating-components.html#basic-lists" class="navigation navigation-next " aria-label="Next page: Component Lists">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Manipulating Components","level":"1.2.1","depth":2,"next":{"title":"Component Lists","level":"1.2.1.1","depth":3,"anchor":"#basic-lists","path":"manipulating-components.md","ref":"manipulating-components.md#basic-lists","articles":[]},"previous":{"title":"Components","level":"1.2","depth":1,"path":"components.md","ref":"components.md","articles":[{"title":"Manipulating Components","level":"1.2.1","depth":2,"path":"manipulating-components.md","ref":"manipulating-components.md","articles":[{"title":"Component Lists","level":"1.2.1.1","depth":3,"anchor":"#basic-lists","path":"manipulating-components.md","ref":"manipulating-components.md#basic-lists","articles":[]},{"title":"Head Lists","level":"1.2.1.2","depth":3,"anchor":"#head-lists","path":"manipulating-components.md","ref":"manipulating-components.md#head-lists","articles":[]},{"title":"Invisible Lists","level":"1.2.1.3","depth":3,"anchor":"#invisible-lists","path":"manipulating-components.md","ref":"manipulating-components.md#invisible-lists","articles":[]},{"title":"Page Areas","level":"1.2.1.4","depth":3,"anchor":"#page-areas","path":"manipulating-components.md","ref":"manipulating-components.md#page-areas","articles":[]},{"title":"Site-Specific Components","level":"1.2.1.5","depth":3,"anchor":"#site-specific-components","path":"manipulating-components.md","ref":"manipulating-components.md#site-specific-components","articles":[]},{"title":"Fuzzy Lists","level":"1.2.1.6","depth":3,"anchor":"#fuzzy-lists","path":"manipulating-components.md","ref":"manipulating-components.md#fuzzy-lists","articles":[]}]},{"title":"Editing Components","level":"1.2.2","depth":2,"path":"editing-components.md","ref":"editing-components.md","articles":[{"title":"Inline WYSIWYG","level":"1.2.2.1","depth":3,"anchor":"#inline-wysiwyg","path":"editing-components.md","ref":"editing-components.md#inline-wysiwyg","articles":[]},{"title":"Placeholders","level":"1.2.2.2","depth":3,"anchor":"#placeholders","path":"editing-components.md","ref":"editing-components.md#placeholders","articles":[]},{"title":"Overlay Forms","level":"1.2.2.3","depth":3,"anchor":"#editing-components-with-forms","path":"editing-components.md","ref":"editing-components.md#editing-components-with-forms","articles":[]},{"title":"Groups","level":"1.2.2.4","depth":3,"anchor":"#groups","path":"editing-components.md","ref":"editing-components.md#groups","articles":[]},{"title":"Settings Group","level":"1.2.2.5","depth":3,"anchor":"#settings-group","path":"editing-components.md","ref":"editing-components.md#settings-group","articles":[]},{"title":"Tabbed Forms","level":"1.2.2.6","depth":3,"anchor":"#tabbed-form-sections","path":"editing-components.md","ref":"editing-components.md#tabbed-form-sections","articles":[]},{"title":"Fields","level":"1.2.2.7","depth":3,"anchor":"#field-configuration","path":"editing-components.md","ref":"editing-components.md#field-configuration","articles":[]},{"title":"Cross Component Communication","level":"1.2.2.8","depth":3,"anchor":"#cross-component-communication","path":"editing-components.md","ref":"editing-components.md#cross-component-communication","articles":[]}]}]},"dir":"ltr"},"config":{"plugins":["github","anchorjs","bootstrap-callout"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/clay/clay-kiln/"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"bootstrap-callout":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Kiln","gitbook":"3.2.3"},"file":{"path":"manipulating-components.md","mtime":"2017-11-07T21:31:16.681Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-08T21:15:50.870Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.1.1/anchor.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-anchorjs/anchor-style.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
