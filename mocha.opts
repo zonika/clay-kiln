@@ -1,0 +1,3 @@
+--webpack-config webpack.config.js
+--include test/mocha-setup.js
+test/**/*.spec.js

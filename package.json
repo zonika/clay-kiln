@@ -8,7 +8,7 @@
     "karma": "karma start",
     "test": "npm run lint && npm run karma",
     "test-local": "BABEL_ENV=test npm run lint && BABEL_ENV=test npm run karma -- karma.local.conf.js",
-    "test-unit": "NODE_ENV=test mocha-webpack --webpack-config webpack.config.js --require test/mocha-setup.js test/**/*.spec.js",
+    "test-unit": "NODE_ENV=test mocha-webpack --opts mocha.opts",
     "build": "BABEL_ENV=build webpack",
     "watch": "BABEL_ENV=build webpack -w",
     "prepublishOnly": "BABEL_ENV=build webpack -p && npm run generate-actions",
