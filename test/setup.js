@@ -1,21 +1,7 @@
-import _ from 'lodash';
-import Vue from 'vue';
-import Vuex from 'vuex';
-import { beforeEachHooks, afterEachHooks, mount } from 'vue-unit/src';
 import * as logger from '../lib/utils/log'; // allow us to stub the default
 
+// adds these files to Karma's context to test them
 const testsContext = require.context('../', true, /^\.\/(lib|inputs)\/.*?\.test\.js$/);
-
-let defaultStore;
-
-// allow store mocking
-Vue.use(Vuex);
-defaultStore = new Vuex.Store({ state: {} });
-
-// add renderWithArgs function to all tests, allowing us to easily test vue components
-window.renderWithArgs = (Component, props, state) => {
-  return mount(Component, { props, store: _.assign({}, defaultStore, { state }) });
-};
 
 // stub logger
 window.loggerStub = {
@@ -31,9 +17,6 @@ sinon.stub(logger, 'default').callsFake(() => {
   // we create a new logger
   return window.loggerStub;
 });
-
-window.beforeEachHooks = beforeEachHooks;
-window.afterEachHooks = afterEachHooks;
 
 // run all tests
 testsContext.keys().forEach(testsContext);
